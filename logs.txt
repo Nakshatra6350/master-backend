@@ -1,0 +1,24 @@
+Master :: 2024/06/18 17:13:35 POST /user/signup [::1]:62396 PostmanRuntime/7.37.3 Inside Create user credentials
+Master :: 2024/06/18 18:02:46 POST /user/login [::1]:63680 PostmanRuntime/7.37.3 Inside Login user
+Master :: 2024/06/18 18:02:46 POST /user/login [::1]:63680 PostmanRuntime/7.37.3 400 Invalid Credentials, Email does not exists
+Master :: 2024/06/18 18:05:29 POST /user/login [::1]:63786 PostmanRuntime/7.37.3 Inside Login user
+Master :: 2024/06/18 18:05:29 POST /user/login [::1]:63786 PostmanRuntime/7.37.3 400 Invalid Credentials, Password not verify
+Master :: 2024/06/18 18:05:55 POST /user/login [::1]:63786 PostmanRuntime/7.37.3 Inside Login user
+Master :: 2024/06/18 18:08:22 POST /user/login [::1]:63786 PostmanRuntime/7.37.3 400 Invalid Credentials, Password not verify
+Master :: 2024/06/18 18:09:21 POST /user/signup [::1]:63923 PostmanRuntime/7.37.3 Inside Create user credentials
+Master :: 2024/06/18 18:09:44 POST /user/login [::1]:63923 PostmanRuntime/7.37.3 Inside Login user
+Master :: 2024/06/18 18:11:16 POST /user/login [::1]:63923 PostmanRuntime/7.37.3 400 Invalid Credentials, Password not verify
+Master :: 2024/06/18 18:11:19 POST /user/login [::1]:63923 PostmanRuntime/7.37.3 Inside Login user
+Master :: 2024/06/18 18:14:06 POST /user/signup [::1]:64106 PostmanRuntime/7.37.3 Inside Create user credentials
+Master :: 2024/06/18 18:14:15 POST /user/login [::1]:64106 PostmanRuntime/7.37.3 Inside Login user
+Master :: 2024/06/18 18:14:25 POST /user/login [::1]:64106 PostmanRuntime/7.37.3 400 Invalid Credentials, Password not verify
+Master :: 2024/06/18 18:14:36 POST /user/login [::1]:64106 PostmanRuntime/7.37.3 Inside Login user
+Master :: 2024/06/18 18:14:54 POST /user/login [::1]:64106 PostmanRuntime/7.37.3 400 Invalid Credentials, Password not verify
+Master :: 2024/06/18 18:15:04 POST /user/login [::1]:64106 PostmanRuntime/7.37.3 Inside Login user
+Master :: 2024/06/18 18:16:01 POST /user/login [::1]:64106 PostmanRuntime/7.37.3 400 Invalid Credentials, Password not verify
+Master :: 2024/06/18 18:20:39 POST /user/signup [::1]:64307 PostmanRuntime/7.37.3 Inside Create user credentials
+Master :: 2024/06/18 18:20:43 POST /user/login [::1]:64307 PostmanRuntime/7.37.3 Inside Login user
+Master :: 2024/06/18 18:24:47 POST /user/login [::1]:64510 PostmanRuntime/7.37.3 Inside Login user
+Master :: 2024/06/18 18:28:35 POST /user/logout [::1]:64723 PostmanRuntime/7.37.3 logoutHandler
+Master :: 2024/06/18 18:30:14 POST /user/login [::1]:64871 PostmanRuntime/7.37.3 Inside Login user
+Master :: 2024/06/18 18:30:18 POST /user/logout [::1]:64871 PostmanRuntime/7.37.3 logoutHandler

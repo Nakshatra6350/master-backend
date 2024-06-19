@@ -7,6 +7,8 @@ import (
 	"time"
 	"user-service/util"
 
+	_ "github.com/go-sql-driver/mysql"
+	"github.com/jinzhu/gorm"
 	"github.com/joho/godotenv"
 	log "github.com/sirupsen/logrus"
 	"go.mongodb.org/mongo-driver/mongo"
@@ -14,6 +16,7 @@ import (
 )
 
 var L *log.Logger
+var MySQLDB *gorm.DB
 var collection *mongo.Collection
 
 func init() {
@@ -22,6 +25,17 @@ func init() {
 	if err != nil {
 		log.Fatal("cannot load config:", err)
 	}
+
+	mysqlDSN := os.Getenv("MYSQL_DB")
+	db, err := gorm.Open("mysql", mysqlDSN)
+	if err != nil {
+		log.Fatalf("Error connecting to MySQL: %v", err)
+	}
+	db.LogMode(true)
+	MySQLDB = db
+
+	// Auto migrate models
+	db.Debug().AutoMigrate(&Employee{})
 
 	clientOptions := options.Client().
 		ApplyURI(os.Getenv("CONNECTION_DB"))

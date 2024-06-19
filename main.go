@@ -68,6 +68,7 @@ func setupRouter(l *log.Logger) *gin.Engine {
 		users.POST("/signup", auth.SignupHandler)
 		users.POST("/login", auth.LoginHandler)
 		users.POST("/logout", auth.LogoutHandler)
+		//resetpassword,refresh token, verificationLink,profile management
 	}
 
 	return router
